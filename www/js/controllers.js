@@ -145,4 +145,12 @@ angular.module('starter')
     console.log("Could not get location");
     $ionicLoading.hide();
   });
+})
+
+.controller('DialCtrl', function($scope) {
+  $scope.phonenumber = '';
+  $scope.clickNumber = function(index) {
+    console.log('clickNumber:' + index);
+    $scope.phonenumber = $scope.phonenumber + index;
+  }
 });

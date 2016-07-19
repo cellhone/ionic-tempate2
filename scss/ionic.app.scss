@@ -37,7 +37,49 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   display: block;
 }
 
-
 .bgpositive {
     background-color:#4982E2;
+}
+
+
+/* Dial */
+.dialpad-row {
+  height:17%;
+  margin-top:15px;
+}
+.dialpad-num {
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:1px;
+  color:slategray;
+  text-align:right;
+  font-size: 3.5em;
+}
+.dialpad-col {
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:1px;
+}
+.dialpad-btn:hover {
+  color:lightcoral;
+}
+.dialpad-btn:active {
+  background-color:lightcoral;
+  color:white;
+}
+.dialpad-btn {
+  width:100%;
+  height:100%;
+  margin:0px;
+  padding:0px;
+  color: #4982E2; /* positive */
+  background-color: white;
+  font-size: 3.5em;
+  
+}
+.icon_custom {
+  font-size:1.7em;
+  color:limegreen;
 }

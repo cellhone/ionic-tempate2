@@ -97,6 +97,15 @@ angular.module('starter', ['ionic', 'FBAngular', 'ngStorage', 'ngCordova'])
         templateUrl: 'templates/main.about.html'
       }
     }
+  })
+  .state('main.dial', {
+    url: '/dial',
+    views: {
+      dial: {
+        templateUrl: 'templates/main.dial.html',
+        controller: 'DialCtrl'
+      }
+    }
   });
 
     

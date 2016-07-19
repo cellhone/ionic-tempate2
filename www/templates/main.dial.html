@@ -1,0 +1,50 @@
+<!--
+<ion-view view-title="Dial">
+  <ion-content scroll="false" >
+    <div class="card" data-tap-disabled="true" style="position: relative;background-color:red; height:100%;border:10px solid #ff00ff;margin:0px;">
+      <img src="http://xmpp.hplabs.jp/demo/push/lib/avator/guest22.jpg" style="position: absolute;bottom:0px">
+    </div>
+  </ion-content>
+</ion-view>
+-->
+<ion-view view-title="Dial">
+  <ion-content scroll="false" >
+
+<div class = "row dialpad-row">
+  <div class = "col col-30 dialpad-col" ><input class="dialpad-num" value="{{phonenumber}}"></div>
+</div>
+    
+<div class = "row dialpad-row">
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('1')">1</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('2')">2</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('3')">3</button></div>
+</div>
+
+<div class = "row dialpad-row">
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('4')">4</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('5')">5</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('6')">6</button></div>
+</div>
+
+
+<div class = "row dialpad-row">
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('7')">7</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('8')">8</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('9')">9</button></div>
+</div>
+
+<div class = "row dialpad-row">
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('*')">*</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('0')">0</button></div>
+  <div class = "col col-30 dialpad-col" ><button class="button dialpad-btn" ng-click="clickNumber('#')">#</button></div>
+</div>
+
+
+<div class = "row dialpad-row">
+  <div class = "col col-100 dialpad-col" >
+    <button class='button large_button dialpad-btn'>
+    <i class="icon_custom ion-ios-telephone"></i></button>
+  </div>
+</div>
+  </ion-content>
+</ion-view>
